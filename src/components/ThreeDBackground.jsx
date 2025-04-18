@@ -6,10 +6,13 @@ import { Model } from './Model'
 // Helper function for random numbers
 const random = (min, max) => Math.random() * (max - min) + min;
 
+// Use Vite's base URL for assets
+const base = import.meta.env.BASE_URL;
+
 // Pre-calculate random values for each model
 const modelConfigurations = [
   {
-    url: "/models/cube.gltf",
+    url: `${base}models/cube.gltf`,
     position: [1, 3, -2],
     animation: {
       speed: 0.05, // Base speed
@@ -19,7 +22,7 @@ const modelConfigurations = [
     }
   },
   {
-    url: "/models/cone.gltf",
+    url: `${base}models/cone.gltf`,
     position: [2, 2, -2],
     animation: {
       speed: 0.03,
@@ -29,7 +32,7 @@ const modelConfigurations = [
     }
   },
   {
-    url: "/models/capsule.gltf",
+    url: `${base}models/capsule.gltf`,
     position: [-2, 1, -1],
     animation: {
       speed: 0.03,
@@ -39,7 +42,7 @@ const modelConfigurations = [
     }
   },
   {
-    url: "/models/diamond.gltf",
+    url: `${base}models/diamond.gltf`,
     position: [2, 0, 0],
     animation: {
       speed: 0.03,
@@ -49,7 +52,7 @@ const modelConfigurations = [
     }
   },
   {
-    url: "/models/sphere.gltf",
+    url: `${base}models/sphere.gltf`,
     position: [-2, -1, 1],
     animation: {
       speed: 0.03,
@@ -59,7 +62,7 @@ const modelConfigurations = [
     }
   },
   {
-    url: "/models/torus.gltf",
+    url: `${base}models/torus.gltf`,
     position: [3, -2, 2],
     animation: {
       speed: 0.03,
@@ -69,7 +72,7 @@ const modelConfigurations = [
     }
   },
   {
-    url: "/models/tube.gltf",
+    url: `${base}models/tube.gltf`,
     position: [1, -3, 2],
     animation: {
       speed: 0.03,

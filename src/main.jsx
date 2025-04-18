@@ -46,7 +46,7 @@ const App = () => {
       <ThreeDBackground />
       <NavMenu />
       <main>
-        <Router>
+        <Router basename={import.meta.env.BASE_URL}>
           <Routes>
             <Route path="/" element={<Index />} />
             <Route path="/projects" element={<Projects />} />

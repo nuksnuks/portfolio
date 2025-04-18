@@ -15,16 +15,16 @@ const Projects = () => {
             <h4>Planning Tool Screenshots</h4>
             <div className="image-grid">
               <div className="image-wrapper">
-                <img src="/images/planning_tool/1.jpg" alt="Planning Tool" />
+                <img src="images/planning_tool/1.jpg" alt="Planning Tool" />
               </div>
               <div className="image-wrapper">
-                <img src="/images/planning_tool/2.jpg" alt="Planning Tool" />
+                <img src="images/planning_tool/2.jpg" alt="Planning Tool" />
               </div>
               <div className="image-wrapper">
-                <img src="/images/planning_tool/3.jpg" alt="Planning Tool" />
+                <img src="images/planning_tool/3.jpg" alt="Planning Tool" />
               </div>
               <div className="image-wrapper">
-                <img src="/images/planning_tool/4.jpg" alt="Planning Tool" />
+                <img src="images/planning_tool/4.jpg" alt="Planning Tool" />
               </div>
             </div>
           </div>
@@ -38,13 +38,13 @@ const Projects = () => {
             <h4>CGI Examples</h4>
             <div className="image-grid">
               <div className="image-wrapper">
-                <img src="/images/sps/CGI/chesssim.png" alt="CGI Example" />
+                <img src="images/sps/CGI/chesssim.png" alt="CGI Example" />
               </div>
               <div className="image-wrapper">
-                <img src="/images/sps/CGI/deadpoolmodel.png" alt="CGI Example" />
+                <img src="images/sps/CGI/deadpoolmodel.png" alt="CGI Example" />
               </div>
               <div className="image-wrapper">
-                <img src="/images/sps/CGI/starwarsscene.png" alt="CGI Example" />
+                <img src="images/sps/CGI/starwarsscene.png" alt="CGI Example" />
               </div>
             </div>
           <p>
@@ -63,7 +63,7 @@ const Projects = () => {
             </p>
             <div className="image-grid">
               <div className="image-wrapper">
-                <img src="/images/sps/game/mur.jpg" alt="Game Development" />
+                <img src="images/sps/game/mur.jpg" alt="Game Development" />
               </div>
             </div>
           </div>
@@ -82,16 +82,16 @@ const Projects = () => {
             <h4>App Screenshots</h4>
             <div className="image-grid">
               <div className="image-wrapper">
-                <img src="/images/app_screenshots/1.jpg" alt="App Screenshot" />
+                <img src="images/app_screenshots/1.jpg" alt="App Screenshot" />
               </div>
               <div className="image-wrapper">
-                <img src="/images/app_screenshots/2.jpg" alt="App Screenshot" />
+                <img src="images/app_screenshots/2.jpg" alt="App Screenshot" />
               </div>
               <div className="image-wrapper">
-                <img src="/images/app_screenshots/3.jpg" alt="App Screenshot" />
+                <img src="images/app_screenshots/3.jpg" alt="App Screenshot" />
               </div>
               <div className="image-wrapper">
-                <img src="/images/app_screenshots/4.jpg" alt="App Screenshot" />
+                <img src="images/app_screenshots/4.jpg" alt="App Screenshot" />
               </div>
             </div>
           </div>

@@ -10,7 +10,7 @@ const Profile = () => {
     <div className='projects-container'>
       <div className='profile'>
         <h1>{greeting}</h1>
-        <img src='/src/assets/profile_square.jpg' alt='Profile'/>
+        <img src={`${import.meta.env.BASE_URL}assets/profile_square.jpg`} alt='Profile'/>
   
         <h2><u>David Wogelius</u></h2>
         <p>I am a graphics designer and software engineer with a passion for learning and solving problems. 
