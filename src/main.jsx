@@ -49,7 +49,7 @@ const App = () => {
         <Router basename={import.meta.env.BASE_URL}>
           <Routes>
             <Route path="/" element={<Index />} />
-            <Route path="/projects" element={<Projects />} />
+            <Route path="projects" element={<Projects />} />
           </Routes>
         </Router>
       </main>
