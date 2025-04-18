@@ -27,5 +27,4 @@ jobs:
           folder: dist
           clean: true
           force: true
-          target-folder: /portfolio
           token: ${{ secrets.GH_PAGES_TOKEN }}
