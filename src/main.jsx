@@ -44,16 +44,16 @@ const App = () => {
   return (
     <>
       <ThreeDBackground />
-      <NavMenu />
-      <main>
-        <Router basename={import.meta.env.BASE_URL}>
+      <Router basename={import.meta.env.BASE_URL}>
+        <NavMenu />
+        <main>
           <Routes>
             <Route path="/" element={<Index />} />
             <Route path="projects" element={<Projects />} />
           </Routes>
-        </Router>
-      </main>
-      <Footer theme={theme} toggleTheme={toggleTheme} />
+        </main>
+        <Footer theme={theme} toggleTheme={toggleTheme} />
+      </Router>
     </>
   )
 }
