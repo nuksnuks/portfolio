@@ -10,7 +10,8 @@ const Profile = () => {
     <div className='projects-container'>
       <div className='profile'>
         <h1>{greeting}</h1>
-        <img src={`${import.meta.env.BASE_URL}assets/profile_square.jpg`} alt='Profile'/>
+        {/* Profile image as background for precise crop/zoom */}
+        <div className='profile-img-wrapper'></div>
   
         <h2><u>David Wogelius</u></h2>
         <p>I am a graphics designer and software engineer with a passion for learning and solving problems. 
@@ -18,8 +19,8 @@ const Profile = () => {
           and I am always looking to expand my knowledge and skills.
         </p>
       </div>
+        <h2 className='tech-stack-title'><u>Tech Stack</u></h2>
       <div className='tech-stack'>
-        <h2><u>Tech Stack</u></h2>
         <div className='columns'>
 
           <div className='tech-stack__column'>

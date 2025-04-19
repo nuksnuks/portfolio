@@ -29,12 +29,12 @@
 			"name":"Material.003",
 			"pbrMetallicRoughness":{
 				"baseColorFactor":[
-					1,
-					0.800000011920929,
-					0,
+					0.760138750076294,
+					0.4509175419807434,
+					0.16281619668006897,
 					1
 				],
-				"metallicFactor":0.30000001192092896
+				"metallicFactor":0
 			}
 		}
 	],

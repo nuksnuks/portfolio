@@ -3,6 +3,9 @@
 		"generator":"Khronos glTF Blender I/O v4.4.55",
 		"version":"2.0"
 	},
+	"extensionsUsed":[
+		"KHR_materials_emissive_strength"
+	],
 	"scene":0,
 	"scenes":[
 		{
@@ -15,35 +18,54 @@
 	"nodes":[
 		{
 			"mesh":0,
-			"name":"Cube"
+			"name":"Star",
+			"scale":[
+				0.45674580335617065,
+				0.45674580335617065,
+				0.45674580335617065
+			],
+			"translation":[
+				9,
+				0,
+				0
+			]
 		}
 	],
 	"materials":[
 		{
 			"doubleSided":true,
-			"name":"Material",
+			"emissiveFactor":[
+				1,
+				1,
+				0
+			],
+			"extensions":{
+				"KHR_materials_emissive_strength":{
+					"emissiveStrength":1.2999999523162842
+				}
+			},
+			"name":"Material.010",
 			"pbrMetallicRoughness":{
 				"baseColorFactor":[
-					1,
-					0.09444445371627808,
-					0.09444445371627808,
+					0.800000011920929,
+					0.800000011920929,
+					0,
 					1
 				],
-				"metallicFactor":0
+				"roughnessFactor":0
 			}
 		}
 	],
 	"meshes":[
 		{
-			"name":"Cube",
+			"name":"Star",
 			"primitives":[
 				{
 					"attributes":{
 						"POSITION":0,
-						"NORMAL":1,
-						"TEXCOORD_0":2
+						"NORMAL":1
 					},
-					"indices":3,
+					"indices":2,
 					"material":0
 				}
 			]
@@ -53,68 +75,56 @@
 		{
 			"bufferView":0,
 			"componentType":5126,
-			"count":24,
+			"count":62,
 			"max":[
-				0.3435341715812683,
-				0.3435341715812683,
-				0.3435341715812683
+				0.80901700258255,
+				0.25,
+				0.9510565400123596
 			],
 			"min":[
-				-0.3435341715812683,
-				-0.3435341715812683,
-				-0.3435341715812683
+				-1,
+				-0.25,
+				-0.9510565400123596
 			],
 			"type":"VEC3"
 		},
 		{
 			"bufferView":1,
 			"componentType":5126,
-			"count":24,
+			"count":62,
 			"type":"VEC3"
 		},
 		{
 			"bufferView":2,
-			"componentType":5126,
-			"count":24,
-			"type":"VEC2"
-		},
-		{
-			"bufferView":3,
 			"componentType":5123,
-			"count":36,
+			"count":120,
 			"type":"SCALAR"
 		}
 	],
 	"bufferViews":[
 		{
 			"buffer":0,
-			"byteLength":288,
+			"byteLength":744,
 			"byteOffset":0,
 			"target":34962
 		},
 		{
 			"buffer":0,
-			"byteLength":288,
-			"byteOffset":288,
+			"byteLength":744,
+			"byteOffset":744,
 			"target":34962
 		},
 		{
 			"buffer":0,
-			"byteLength":192,
-			"byteOffset":576,
-			"target":34962
-		},
-		{
-			"buffer":0,
-			"byteLength":72,
-			"byteOffset":768,
+			"byteLength":240,
+			"byteOffset":1488,
 			"target":34963
 		}
 	],
 	"buffers":[
 		{
-			"byteLength":840,
-			"uri":"cube.bin"
+			"byteLength":1728,
+			"uri":"star.bin"
 		}
 	]
 }

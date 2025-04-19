@@ -29,9 +29,9 @@
 			"name":"Material.001",
 			"pbrMetallicRoughness":{
 				"baseColorFactor":[
-					0,
-					0.800000011920929,
-					0,
+					0.6000000238418579,
+					1,
+					0.6000000238418579,
 					1
 				],
 				"roughnessFactor":0
@@ -58,7 +58,7 @@
 		{
 			"bufferView":0,
 			"componentType":5126,
-			"count":128,
+			"count":65,
 			"max":[
 				0.35681241750717163,
 				0.35681241750717163,
@@ -74,13 +74,13 @@
 		{
 			"bufferView":1,
 			"componentType":5126,
-			"count":128,
+			"count":65,
 			"type":"VEC3"
 		},
 		{
 			"bufferView":2,
 			"componentType":5126,
-			"count":128,
+			"count":65,
 			"type":"VEC2"
 		},
 		{
@@ -93,32 +93,32 @@
 	"bufferViews":[
 		{
 			"buffer":0,
-			"byteLength":1536,
+			"byteLength":780,
 			"byteOffset":0,
 			"target":34962
 		},
 		{
 			"buffer":0,
-			"byteLength":1536,
-			"byteOffset":1536,
+			"byteLength":780,
+			"byteOffset":780,
 			"target":34962
 		},
 		{
 			"buffer":0,
-			"byteLength":1024,
-			"byteOffset":3072,
+			"byteLength":520,
+			"byteOffset":1560,
 			"target":34962
 		},
 		{
 			"buffer":0,
 			"byteLength":372,
-			"byteOffset":4096,
+			"byteOffset":2080,
 			"target":34963
 		}
 	],
 	"buffers":[
 		{
-			"byteLength":4468,
+			"byteLength":2452,
 			"uri":"cone.bin"
 		}
 	]
