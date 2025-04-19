@@ -15,35 +15,45 @@
 	"nodes":[
 		{
 			"mesh":0,
-			"name":"Cube"
+			"name":"HoneyComb",
+			"scale":[
+				0.12212073802947998,
+				0.12212073802947998,
+				0.12212073802947998
+			],
+			"translation":[
+				-1,
+				0,
+				0
+			]
 		}
 	],
 	"materials":[
 		{
 			"doubleSided":true,
-			"name":"Material",
+			"name":"Material.013",
 			"pbrMetallicRoughness":{
 				"baseColorFactor":[
-					1,
-					0.09444445371627808,
-					0.09444445371627808,
+					0.800000011920929,
+					0.3500000238418579,
+					0.1388888955116272,
 					1
 				],
-				"metallicFactor":0
+				"metallicFactor":0,
+				"roughnessFactor":0.24803149700164795
 			}
 		}
 	],
 	"meshes":[
 		{
-			"name":"Cube",
+			"name":"HoneyComb",
 			"primitives":[
 				{
 					"attributes":{
 						"POSITION":0,
-						"NORMAL":1,
-						"TEXCOORD_0":2
+						"NORMAL":1
 					},
-					"indices":3,
+					"indices":2,
 					"material":0
 				}
 			]
@@ -53,68 +63,56 @@
 		{
 			"bufferView":0,
 			"componentType":5126,
-			"count":24,
+			"count":864,
 			"max":[
-				0.3435341715812683,
-				0.3435341715812683,
-				0.3435341715812683
+				2.0435571670532227,
+				0.40604621171951294,
+				1.679848313331604
 			],
 			"min":[
-				-0.3435341715812683,
-				-0.3435341715812683,
-				-0.3435341715812683
+				-2.0435571670532227,
+				0,
+				-1.679848313331604
 			],
 			"type":"VEC3"
 		},
 		{
 			"bufferView":1,
 			"componentType":5126,
-			"count":24,
+			"count":864,
 			"type":"VEC3"
 		},
 		{
 			"bufferView":2,
-			"componentType":5126,
-			"count":24,
-			"type":"VEC2"
-		},
-		{
-			"bufferView":3,
 			"componentType":5123,
-			"count":36,
+			"count":1908,
 			"type":"SCALAR"
 		}
 	],
 	"bufferViews":[
 		{
 			"buffer":0,
-			"byteLength":288,
+			"byteLength":10368,
 			"byteOffset":0,
 			"target":34962
 		},
 		{
 			"buffer":0,
-			"byteLength":288,
-			"byteOffset":288,
+			"byteLength":10368,
+			"byteOffset":10368,
 			"target":34962
 		},
 		{
 			"buffer":0,
-			"byteLength":192,
-			"byteOffset":576,
-			"target":34962
-		},
-		{
-			"buffer":0,
-			"byteLength":72,
-			"byteOffset":768,
+			"byteLength":3816,
+			"byteOffset":20736,
 			"target":34963
 		}
 	],
 	"buffers":[
 		{
-			"byteLength":840,
-			"uri":"cube.bin"
+			"byteLength":24552,
+			"uri":"honeycomb.bin"
 		}
 	]
 }

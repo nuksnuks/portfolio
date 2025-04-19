@@ -15,18 +15,28 @@
 	"nodes":[
 		{
 			"mesh":0,
-			"name":"Cube"
+			"name":"Teapot.001",
+			"scale":[
+				0.13431847095489502,
+				0.13431847095489502,
+				0.13431847095489502
+			],
+			"translation":[
+				0.005648912861943245,
+				0.03332094848155975,
+				0
+			]
 		}
 	],
 	"materials":[
 		{
 			"doubleSided":true,
-			"name":"Material",
+			"name":"Material.012",
 			"pbrMetallicRoughness":{
 				"baseColorFactor":[
-					1,
-					0.09444445371627808,
-					0.09444445371627808,
+					0.2982518672943115,
+					0.2982518672943115,
+					0.2982518672943115,
 					1
 				],
 				"metallicFactor":0
@@ -35,15 +45,14 @@
 	],
 	"meshes":[
 		{
-			"name":"Cube",
+			"name":"Teapot.001",
 			"primitives":[
 				{
 					"attributes":{
 						"POSITION":0,
-						"NORMAL":1,
-						"TEXCOORD_0":2
+						"NORMAL":1
 					},
-					"indices":3,
+					"indices":2,
 					"material":0
 				}
 			]
@@ -53,68 +62,56 @@
 		{
 			"bufferView":0,
 			"componentType":5126,
-			"count":24,
+			"count":2081,
 			"max":[
-				0.3435341715812683,
-				0.3435341715812683,
-				0.3435341715812683
+				3.3910982608795166,
+				1.4142340421676636,
+				2
 			],
 			"min":[
-				-0.3435341715812683,
-				-0.3435341715812683,
-				-0.3435341715812683
+				-3.042056083679199,
+				-1.735766053199768,
+				-2
 			],
 			"type":"VEC3"
 		},
 		{
 			"bufferView":1,
 			"componentType":5126,
-			"count":24,
+			"count":2081,
 			"type":"VEC3"
 		},
 		{
 			"bufferView":2,
-			"componentType":5126,
-			"count":24,
-			"type":"VEC2"
-		},
-		{
-			"bufferView":3,
 			"componentType":5123,
-			"count":36,
+			"count":12096,
 			"type":"SCALAR"
 		}
 	],
 	"bufferViews":[
 		{
 			"buffer":0,
-			"byteLength":288,
+			"byteLength":24972,
 			"byteOffset":0,
 			"target":34962
 		},
 		{
 			"buffer":0,
-			"byteLength":288,
-			"byteOffset":288,
+			"byteLength":24972,
+			"byteOffset":24972,
 			"target":34962
 		},
 		{
 			"buffer":0,
-			"byteLength":192,
-			"byteOffset":576,
-			"target":34962
-		},
-		{
-			"buffer":0,
-			"byteLength":72,
-			"byteOffset":768,
+			"byteLength":24192,
+			"byteOffset":49944,
 			"target":34963
 		}
 	],
 	"buffers":[
 		{
-			"byteLength":840,
-			"uri":"cube.bin"
+			"byteLength":74136,
+			"uri":"teapot.bin"
 		}
 	]
 }

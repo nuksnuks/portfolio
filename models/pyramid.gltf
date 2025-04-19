@@ -15,18 +15,28 @@
 	"nodes":[
 		{
 			"mesh":0,
-			"name":"Cube"
+			"name":"Pyramid",
+			"scale":[
+				0.5261561274528503,
+				0.5261561274528503,
+				0.5261561274528503
+			],
+			"translation":[
+				0,
+				-0.2305912971496582,
+				0
+			]
 		}
 	],
 	"materials":[
 		{
 			"doubleSided":true,
-			"name":"Material",
+			"name":"Material.011",
 			"pbrMetallicRoughness":{
 				"baseColorFactor":[
 					1,
-					0.09444445371627808,
-					0.09444445371627808,
+					0.7964263558387756,
+					0.5110101699829102,
 					1
 				],
 				"metallicFactor":0
@@ -35,15 +45,14 @@
 	],
 	"meshes":[
 		{
-			"name":"Cube",
+			"name":"Pyramid",
 			"primitives":[
 				{
 					"attributes":{
 						"POSITION":0,
-						"NORMAL":1,
-						"TEXCOORD_0":2
+						"NORMAL":1
 					},
-					"indices":3,
+					"indices":2,
 					"material":0
 				}
 			]
@@ -53,68 +62,56 @@
 		{
 			"bufferView":0,
 			"componentType":5126,
-			"count":24,
+			"count":240,
 			"max":[
-				0.3435341715812683,
-				0.3435341715812683,
-				0.3435341715812683
+				1,
+				1.0000001192092896,
+				1
 			],
 			"min":[
-				-0.3435341715812683,
-				-0.3435341715812683,
-				-0.3435341715812683
+				-1,
+				0,
+				-1
 			],
 			"type":"VEC3"
 		},
 		{
 			"bufferView":1,
 			"componentType":5126,
-			"count":24,
+			"count":240,
 			"type":"VEC3"
 		},
 		{
 			"bufferView":2,
-			"componentType":5126,
-			"count":24,
-			"type":"VEC2"
-		},
-		{
-			"bufferView":3,
 			"componentType":5123,
-			"count":36,
+			"count":468,
 			"type":"SCALAR"
 		}
 	],
 	"bufferViews":[
 		{
 			"buffer":0,
-			"byteLength":288,
+			"byteLength":2880,
 			"byteOffset":0,
 			"target":34962
 		},
 		{
 			"buffer":0,
-			"byteLength":288,
-			"byteOffset":288,
+			"byteLength":2880,
+			"byteOffset":2880,
 			"target":34962
 		},
 		{
 			"buffer":0,
-			"byteLength":192,
-			"byteOffset":576,
-			"target":34962
-		},
-		{
-			"buffer":0,
-			"byteLength":72,
-			"byteOffset":768,
+			"byteLength":936,
+			"byteOffset":5760,
 			"target":34963
 		}
 	],
 	"buffers":[
 		{
-			"byteLength":840,
-			"uri":"cube.bin"
+			"byteLength":6696,
+			"uri":"pyramid.bin"
 		}
 	]
 }
